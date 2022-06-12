@@ -1,0 +1,61 @@
+nav {
+    display: flex;
+    justify-content: space-around; 
+    background-color:#83A7CC;
+}
+body {
+    font-family: 'Joan', serif;
+    background-color:#C5CFD4;
+}
+
+.name-container {
+    display: flex;
+    width: 33%;
+    padding: 5px;
+    margin: 5px;
+    color: #20406E;
+
+
+}
+
+.button-container {
+    display: flex;
+    width: 70%;
+    padding: 5px;
+    margin: 5px;
+    justify-content: flex-end;
+}
+.button {
+    float: left;
+    
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.photo-container > img {
+    margin: 10px 20px 20px 10px;
+    border-radius: 10px;
+    float: right;
+}
+
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align:center;
+}
+.flex-container {
+
+    background-color: rgb(121, 121, 146);
+    border-radius: 5px;
+    text-align: center;
+    clear: both;
+}
+footer {
+    clear: both;
+}
